@@ -1,0 +1,203 @@
+/* Navbar*/
+
+/* End of Navbar*/
+
+
+/* Jumbotron */
+.section-light {
+	border-bottom: 10px solid #111;
+}
+.section a {
+	font-family: Lato, sans-serif;
+	font-size: 40px;
+	color: #555;
+	margin-bottom: 50px;
+}
+
+
+/* Welcome Section*/
+* {
+margin: 0;
+padding: 0;
+}
+.fly-in-text {
+list-style: none;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translateX(-50%) translateY(-50%);
+width: 100%;
+}
+.fly-in-text li {
+display: inline-block;
+margin-right: 10px;
+font-family: Open Sans, Arial;
+font-weight: 300;
+font-size: 4em;
+color: #fff;
+transition: all 2.5s ease;
+opacity: 0.10px;
+}
+.fly-in-text li:last-child {
+margin-right: 0;
+}
+.fly-in-text.hidden li {
+opacity: 0;
+}
+.fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
+.fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
+.fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
+.fly-in-text.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }
+
+/* End of Welcome Section*/
+body {
+	margin-top: 70px;
+}
+body, html {
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Lato", Sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+.pimg1, .pimg2, .pimg3 {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*
+		fixed = parralax
+		scroll = normal
+	*/
+	background-attachment: fixed;
+}
+.pimg1 {
+	background-image: url(../img/1.jpeg);
+	min-height: 100%;
+}
+.pimg2 {
+	background-image: url(../img/2.jpeg);
+	min-height: 250px;
+}
+.pimg4 {
+	min-height: 100px;
+	position: relative;;
+	background-color: #555;
+}
+.pimg4 .text {
+	padding-bottom: 50px;
+}
+
+.section {
+	text-align: center;
+	padding: 50px 80px;
+}
+.ptext {
+	position: absolute;
+	top: 50%;
+	width:100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+
+.ptext .border.trans {
+	background-color: transparent;
+}
+/* Profile */
+.background {
+	height: 67%;
+}
+.jumbotron img {
+	width: 250px;
+	border : 5px solid #121; 
+}
+.jumbotron h1 {
+	color: #000;
+	font-weight: bolder;
+	font-size: 50px;
+}
+.jumbotron p {
+	text-align: justify;
+	color: #000;
+	font-size: 25px;
+	min-height: 25%;
+}
+/* End Of Profile */
+
+/* contact */
+#contact{
+  background-color: #75797f;
+  padding: 50px;
+  color:#fff;
+  border-top:#333 7px solid;
+  border-bottom:#333 7px solid;
+  min-height: 100px;
+}
+/* end of contact*/
+
+/* Video Section */
+.section-dark {
+	background-color: #282e34;
+	color: #ddd;
+	padding-top: 50px;
+}
+.section-dark iframe {
+	width: 720px;
+	height: 360px;
+	margin: 50px;
+}
+/* End of Video Section */
+
+/* Section Skill*/
+.trans h1 {
+	font-weight: bolder;
+	margin-top: -100px;
+}
+.pimg3 {
+	background-color: #eaeaea;
+	min-height: 900px;
+}
+
+* {box-sizing:border-box}
+
+
+.container-skill {
+    width: 100%; /* Full width */
+    background-color: #fff; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {
+	width: 90%; 
+	background-color: #4CAF50;
+}
+.css {
+	width: 80%; 
+	background-color: #2196F3;
+}
+.js {
+	width: 45%; 
+	background-color: #f44336;
+}
+/* End of Section Skill */
+
+/* Footer */
+.main-footer {
+	background-color: #0f1319;
+}
+/* End of Footer */
